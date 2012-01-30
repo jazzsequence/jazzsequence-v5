@@ -11,6 +11,7 @@ Redesign for jazzsequence.com with support for post formats, thumbnails, menus a
 ### Version 0.2
 #### 01/30/2012
 
+* added some responsive styles for smaller screens and mobile displays
 * more styling updates
 * index.php is more or less done
 * header is partially done
