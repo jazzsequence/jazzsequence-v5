@@ -708,48 +708,6 @@ img {
   height: auto;
 }
 
-
-/* Smaller screens */
-
-@media only screen and (max-width: 1023px) {
-
-  body {
-  font-size: 0.8em;
-  line-height: 1.5em;
-  }
-
-  }
-
-
-/* Mobile */
-
-@media handheld, only screen and (max-width: 767px) {
-
-  body {
-  font-size: 16px;
-  -webkit-text-size-adjust: none;
-  }
-
-  .row, body, .container {
-  width: 100%;
-  min-width: 0;
-  margin-left: 0px;
-  margin-right: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
-  }
-
-  .row .onecol, .row .twocol, .row .threecol, .row .fourcol, .row .fivecol, .row .sixcol, .row .sevencol, .row .eightcol, .row .ninecol, .row .tencol, .row .elevencol, .row .twelvecol {
-  width: auto;
-  float: none;
-  margin-left: 0px;
-  margin-right: 0px;
-  padding-left: 20px;
-  padding-right: 20px;
-  }
-
-}
-
 /* `IE6
 ----------------------------------------------------------------------------------------------------*/
 
@@ -843,8 +801,10 @@ body {
 	font-family: 'Gruppo', sans-serif;
 	color: #ffffff;
   font-size: 1.4em;
+  margin: 0 20px;
 }
 .container {
+  padding: 0 35px;
 }
 
 a, a:link, a:visited { color: #cecdcd; }
@@ -1243,6 +1203,54 @@ tt, code, .code { padding: 2px 5px; background: #575353; border: 1px solid #2b29
    These override the primary ('mobile first') styles
    Modify as content requires.
    ========================================================================== */
+
+/* Smaller screens */
+
+@media only screen and (max-width: 1250px) {
+  body { margin: 0 20px; }
+  .container { padding: 0px!important; }
+  article { box-shadow: none; margin-bottom: 20px; }
+}
+
+@media only screen and (max-width: 1023px) {
+
+  body {
+  font-size: 18px;
+  line-height: 1.2em;
+  margin: 0 20px;
+  }
+}
+
+
+/* Mobile */
+
+@media only screen and (max-width: 767px) {
+
+  body {
+  font-size: 16px;
+  -webkit-text-size-adjust: none;
+  }
+
+  .row, body, .container {
+  min-width: 0;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  }
+
+body { margin: 0 10px; }
+
+  .row .onecol, .row .twocol, .row .threecol, .row .fourcol, .row .fivecol, .row .sixcol, .row .sevencol, .row .eightcol, .row .ninecol, .row .tencol, .row .elevencol, .row .twelvecol {
+  width: auto;
+  float: none;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  }
+
+}
 
 @media only screen and (min-width: 480px) {
   /* Style adjustments for viewports 480px and over go here */
