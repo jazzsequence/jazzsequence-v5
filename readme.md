@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: two-columns, gray, custom-menu, threaded-comments, sticky-post, fixed-width, custom-background, featured-image-header, featured-images, post-formats, right-sidebar  
 Requires at least: 3.1  
 Tested up to: 3.3  
-Stable tag: 0.3.9-beta  
+Stable tag: 0.2
 
 Redesign for jazzsequence.com with support for post formats, thumbnails, menus and more...
 
